@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="form">
+            <h1>Registration</h1>
+            <form>
+                <div class="input-container">
+                    <i class="ri-user-3-fill"></i>
+                    <input type="text" placeholder="First Name">
+                </div>
+                <div class="input-container">
+                    <i class="ri-user-3-fill"></i>
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <div class="input-container">
+                    <i class="ri-mail-fill"></i>
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input-container">
+                    <i class="ri-lock-fill"></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <div class="radio-container">
+                    <label class="input-label">
+                        <input type="radio" name="gender" value="male">
+                        Male
+                    </label>
+                    <label class="input-label">
+                        <input type="radio" name="gender" value="female">
+                        Female
+                    </label>
+                </div>
+                <div class="input-container">
+                    <select name="country" id="country">
+                        <option value="" disabled selected>Select Country</option>
+                        <option value="us">United States</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="ca">Canada</option>
+                        <!-- Add more countries as needed -->
+                    </select>
+                </div>  
+                <button type="submit">Signup</button>
+            </form>
+        </div>
+    </div>
+
+   
+</body>
+</html>
